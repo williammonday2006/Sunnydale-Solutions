@@ -6,3 +6,6 @@ I collected validation errors in an array and displayed all errors together in r
 
 # Phase 3
 I used localStorage to save the reviewer's name after a valid submission and retrieve it when the page loads. Local storage is simpler than cookies for client-side data because JavaScript can access it directly without automatically sending it with HTTP requests. Cookies are useful when a server needs to receive stored information, such as a session identifier.
+
+# Phase 4
+I tested empty and invalid submissions, a valid review, and refreshing the page to verify local storage. The form displayed the expected errors and saved the reviewer's name after a successful submission. I learned that testing different input combinations helps identify validation problems and confirm that saved data persists between visits.
