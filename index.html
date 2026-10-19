@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnydale Solutions Feedback</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Sunnydale Solutions</h1>
+    <h2>Customer Feedback Form</h2>
+
+    <form id="feedback-form" novalidate>
+        <label for="reviewer-name">Your Name:</label>
+        <input type="text" id="reviewer-name">
+        <br><br>
+
+        <label for="rating">Star Rating (1-5):</label>
+        <select id="rating">
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5" selected>5 Stars</option>
+        </select>
+        <br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" rows="5" cols="40"></textarea>
+        <br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+    <div id="error-box"></div>
+</body>
+</html>
