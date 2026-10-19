@@ -3,3 +3,6 @@ I created the feedback form and used a JavaScript submit event listener to colle
 
 # Phase 2
 I collected validation errors in an array and displayed all errors together in red. This helps users identify and fix every problem at once instead of submitting the form repeatedly for individual errors.
+
+# Phase 3
+I used localStorage to save the reviewer's name after a valid submission and retrieve it when the page loads. Local storage is simpler than cookies for client-side data because JavaScript can access it directly without automatically sending it with HTTP requests. Cookies are useful when a server needs to receive stored information, such as a session identifier.
